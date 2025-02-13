@@ -52,7 +52,7 @@ int majorityElement3(vector<int> v)
 
     for(int i = 0; i < n; i++)
     {
-        if(v[i] == 0)
+        if(cnt == 0)
         {
             cnt = 1;
             ele = v[i];
