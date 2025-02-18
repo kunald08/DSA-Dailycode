@@ -57,7 +57,7 @@ int majorityElement3(vector<int> v)
             cnt = 1;
             ele = v[i];
         }
-        else if(ele == v[i]) cnt++;
+        else if(v[i] == ele) cnt++;
         else cnt--;
     }
     int count = 0;
