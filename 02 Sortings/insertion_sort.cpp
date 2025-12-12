@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+// Insertion Sort 
+// in this algorithm, we build a sorted array one element at a time
+// by repeatedly taking the next element from the input data
+// and inserting it into the correct position within the sorted array.
 void insertionSort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)
