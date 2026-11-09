@@ -14,4 +14,3 @@ def hasDuplicate2(nums):
             return True
         seen.add(n)
     return False
-
